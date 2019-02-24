@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -10,6 +10,50 @@
     <title>Quiz board</title>
   </head>
   <body>
-
+    <div class="container-fluid">
+      <div class="mx-auto" style="width: 200px;">
+         <h2>Quiz Board</h2>
+      </div>
+      <div class="container">
+        <form class="bg-info">
+          <!--question 1-->
+          <span>What is jquery?</span><br>
+          <div class="form-check radio">
+            <input type="radio" name="quiz1" value="library" checked>
+            <label class="form-check-label">
+              Library
+            </label>
+          </div>
+          <div class="form-check radio">
+            <input type="radio" name="quiz1" value="langauge">
+            <label class="form-check-label">
+              Language
+            </label><hr>
+          </div>
+          <!--Question 2-->
+          <span>What is the js in full?</span><br>
+          <div class="form-check radio">
+            <input type="radio" name="quiz2" value="jquery">
+            <label class="form-check-label">
+              jquery
+            </label>
+          </div>
+          <div class="form-check radio">
+            <input type="radio" name="quiz2" value="javascript" checked>
+            <label class="form-check-label">
+              javascript
+            </label>
+          </div><hr>
+          <!--Question 3-->
+          <span>Is c++ a low level langage?</span>
+          <div class="form-check radio">
+            <input type="radio" name="quiz3" value="yes">
+            <label class="form-check-label">
+              yes
+            </label>
+          </div><hr>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
