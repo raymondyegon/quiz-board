@@ -30,6 +30,8 @@ $(document).ready(function() {
       score.push(answer5)
     }
     var result = score.length;
-    
+    if (result == 1) {
+      alert ("20%")
+    }
  });
 });
