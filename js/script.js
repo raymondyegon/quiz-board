@@ -37,9 +37,9 @@ $(document).ready(function() {
     } else if (result == 3) {
       alert('Your score is 60%')
     } else if (result == 4) {
-      alert('80%')
+      alert('Your score is 80%')
     } else {
-      alert('100%')
+      alert('Your score is 100%')
     }
     event.preventDefault();
  });
