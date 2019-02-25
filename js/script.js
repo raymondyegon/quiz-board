@@ -12,10 +12,22 @@ $(document).ready(function() {
     answer4 = $("input[name='quiz4']:checked").val();
     answer5 = $("input[name='quiz5']:checked").val();
     answers = [answer1, answer2, answer3, answer4, answer5]
-  if () {
-
-  } else {
-
-  }
+    var majibu = ["library", "javascript", "yes", "yes", "high"];
+    var score = [] ;
+    if (answer1 === "library") {
+      score.push(answer1)
+    }
+    if (answer2 === "javascript") {
+      score.push(answer2)
+    }
+    if (answer3 === "yes") {
+      score.push(answer3)
+    }
+    if (answer4 === "yes") {
+      score.push(answer4)
+    }
+    if (answer5 === "high") {
+      score.push(answer5)
+    }
  });
 });
