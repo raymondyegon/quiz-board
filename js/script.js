@@ -31,7 +31,16 @@ $(document).ready(function() {
     }
     var result = score.length;
     if (result == 1) {
-      alert ("20%")
+      alert( 'Your score is 20%')
+    } else if (result == 2) {
+      alert('Your score is 40%')
+    } else if (result == 3) {
+      alert('Your score is 60%')
+    } else if (result == 4) {
+      alert('80%')
+    } else {
+      alert('100%')
     }
+    event.preventDefault();
  });
 });
