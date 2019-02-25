@@ -5,6 +5,7 @@ $(document).ready(function() {
   var answer4 ;
   var answer5 ;
   var answers = [] ;
+  /*This function collects the checked radio button*/
   $("#submit").on('click',function() {
     answer1 = $("input[name='quiz1']:checked").val();
     answer2 = $("input[name='quiz2']:checked").val();
@@ -14,6 +15,7 @@ $(document).ready(function() {
     answers = [answer1, answer2, answer3, answer4, answer5]
     var majibu = ["library", "javascript", "yes", "yes", "high"];
     var score = [] ;
+    /*The correct function is checked and if correct its pushed to variable score and counted as a number*/
     if (answer1 === "library") {
       score.push(answer1)
     }
@@ -29,6 +31,7 @@ $(document).ready(function() {
     if (answer5 === "high") {
       score.push(answer5)
     }
+    /*This last function calculates the score output*/
     var result = score.length;
     if (result == 1) {
       alert( 'Your score is 20%')
