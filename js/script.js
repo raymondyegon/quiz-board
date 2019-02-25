@@ -29,5 +29,7 @@ $(document).ready(function() {
     if (answer5 === "high") {
       score.push(answer5)
     }
+    var result = score.length;
+    
  });
 });
